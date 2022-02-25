@@ -1,9 +1,28 @@
 import argparse
 import threading
-from helper import _project,_app,changePath 
+from helper import _project,_app,changePath,base_temp
 
 
-def args_maker():
+def main(project,app,path):
+    if path is not None:
+        changePath(path)
+        
+    if project is None:
+        raise Exception('ProjectName cannot be empty')
+    else:    
+        if app is None:
+            _project(project)
+        else:
+            _project(project)
+            _app(app,project)
+
+
+
+
+
+
+
+if __name__=='__main__':
     parser=argparse.ArgumentParser()
     parser.add_argument('-p',type=str,default=None,help="add app name")
     parser.add_argument('-a',type=str,default=None,help="add project name")
@@ -17,22 +36,4 @@ def args_maker():
     app_name=args.a
     path=args.f
     main(project_name,app_name,path)
-
-
-def main(project,app,path):
-    if path is not None:
-        changePath(path)
-        return
-    if project is None:
-        raise Exception('ProjectName cannot be empty')
-    else:    
-        if app is None:
-            _project(project)
-        else:
-            _project(project)
-            _app(app,project)
-
-
-if __name__=='__main__':
-    args_maker()
 
