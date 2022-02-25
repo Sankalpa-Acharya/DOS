@@ -1,7 +1,5 @@
 # DOS (Django One Shot)
- django one shot is made to help all django developer's who hate to manage the initial setup creating urls.py in all app folder(s), making templates,static folders etc etc !! 
-
-&nbsp;&nbsp;
+ DOS(Django One Shot) is made to help all django developers who hates ho manage the initial setup like creating different templates,static folders then configuring it.
 <p align="center">
  <img src="https://img.shields.io/github/issues/Sankalpa-Acharya/Plus-Minus?style=for-the-badge"> &nbsp;&nbsp;
  <img src="https://img.shields.io/github/stars/Sankalpa-Acharya/Plus-Minus?style=for-the-badge"> &nbsp;&nbsp;
