@@ -1,5 +1,5 @@
 # DOS (Django One Shot)
- DOS(Django One Shot) is made to help all django developers who hates ho manage the initial setup like creating different templates,static folders then configuring it.
+ DOS(Django One Shot) is made to help all django developers who hates ho manage the initial setup like creating different templates,static folders then configuring. It automates work and generate all files with single hit of command.
 <p align="center">
  <img src="https://img.shields.io/github/issues/Sankalpa-Acharya/Plus-Minus?style=for-the-badge"> &nbsp;&nbsp;
  <img src="https://img.shields.io/github/stars/Sankalpa-Acharya/Plus-Minus?style=for-the-badge"> &nbsp;&nbsp;
